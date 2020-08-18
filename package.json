@@ -1,0 +1,29 @@
+{
+  "name": "portfolio2020",
+  "version": "0.1.0",
+  "description": "Portfolio personal de Alan Jiménez Córdoba",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d",
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "author": "Alan Jimenez Cordoba <alaanjimenez03@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
