@@ -1,0 +1,33 @@
+:root {
+  --primary: #373A3D;
+  --secondary: #F8FBFF;
+  --tertiary: #BBBBBB;
+  --accent: #50C9FF;
+  font-size: 16px;
+}
+
+body {
+  background: var(--primary);
+}
+
+h1, h2 {
+  font-family: $Roboto;
+  color: var(--secondary);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p, span {
+  font-family: $Niramit;
+  color: var(--tertiary);
+}
+
+.contrast {
+  color: var(--accent);
+}
