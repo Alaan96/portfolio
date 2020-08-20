@@ -1,0 +1,16 @@
+div.icons {
+  --icon-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  & div {
+    flex: 0 1 var(--icon-size);
+    margin: 0 .75rem;
+    & img {
+      width: var(--icon-size);
+      height: var(--icon-size);
+    }
+    & span {
+      font-size: .875rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+article.project {
+  & div.project-image {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+    background: var(--secondary);
+    opacity: .25;
+  }
+}

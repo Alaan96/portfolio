@@ -14,46 +14,111 @@
         <line x1="2" x2="26" y1="18" y2="18" />
       </svg>
     </button>
+    <nav>
+      <ul>
+        <li><a href="#header">Inicio</a></li>
+        <li><a href="#stack">Mi Stack</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </div>
 
-  <header>
+  <header id="header">
     <div id="headings">
       <h1>Alan Jiménez Córdoba</h1>
       <h2 class="contrast">Desarrollador Frontend</h2>
     </div>
-    <div id="stack-frontend">
-      <img src="" alt="">
+    <div id="stack-frontend" class="icons">
+      <div>
+        <img src="./assets/Vue.png" alt="Vue">
+        <span>Vue</span>
+      </div>
+      <div>
+        <img src="./assets/HTML5.png" alt="HTML5">
+        <span>HTML5</span>
+      </div>
+      <div>
+        <img src="./assets/CSS3.png" alt="CSS3">
+        <span>CSS3</span>
+      </div>
+      <div>
+        <img src="./assets/JavaScript.png" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
     </div>
-    <div id="stack-extra">
-      <img src="" alt="">
+    <div id="stack-extra" class="icons">
+      <div>
+        <img src="./assets/Node.png" alt="Node">
+        <span>Node</span>
+      </div>
+      <div>
+        <img src="./assets/Xd.png" alt="Xd">
+        <span>Xd</span>
+      </div>
+      <div>
+        <img src="./assets/Sass.png" alt="Sass">
+        <span>Sass</span>
+      </div>
+      <div>
+        <img src="./assets/TypeScript.png" alt="TypeScript">
+        <span>TypeScript</span>
+      </div>
     </div>
-    <!-- <p>Soy desarrollador frontend con conocimientos en UI/UX y backend. Mi pasión es la creación de webapps, desde el diseño
-      hasta el despliegue.</p> -->
+    <p>Soy <b>desarrollador frontend</b> con conocimientos en UI/UX y backend. Mi pasión es la creación de <b>webapps</b>, desde el diseño
+      hasta el despliegue.</p>
   </header>
 
-  <!-- <main>
-    <section id="stack">
-      <h2>Mi Stack</h2>
-      <p>HTML5 , CSS3 y JavaScript son primordiales en cualquier proyecto web, por lo que tengo un buen conocimiento de esas
-      tecnologías. Con JavaScript poseo un gran manejo en VanillaJS o incluyendo TypeScript. Mi framework de preferencia es
-      Vue, en conjunto con su ecosistema, (Vuex, Router y Nuxt). Tengo pensado aprender React y Angular.</p>
-      <p>Tambíen me desempeño de manera menos profesional en el diseño y prototipado, utilizando Adobe Xd. Y del lado del backend
-      uso Node + Express y MySQL o MongoDB.</p>
-    </section>
+  <section id="stack">
+    <h2>Mi Stack</h2>
+    <p>HTML5 , CSS3 y JavaScript son primordiales en cualquier proyecto web, por lo que tengo un buen conocimiento de esas
+    tecnologías. Con JavaScript poseo un gran manejo en VanillaJS o incluyendo TypeScript. Mi framework de preferencia es
+    Vue, en conjunto con su ecosistema, (Vuex, Router y Nuxt). Tengo pensado aprender React y Angular.</p>
+    <p>Tambíen me desempeño de manera menos profesional en el diseño y prototipado, utilizando Adobe Xd. Y del lado del backend
+    uso Node + Express y MySQL o MongoDB.</p>
+  </section>
 
-    <section id="experience">
-      <h2>Experiencia</h2>
-      <p>Tengo 3 años de experiencia en el desarrollo y diseño web, realizando proyectos personales, trabajando como freelance y
-      anteriormente en una empresa.</p>
-      <p>Realicé media carrera de Diseño Multimedial en la Escuela Da Vinci. Actualmente estudio como autodidacta investigando en
-      internet y aprendiendo con plataformas educativas.</p>
-      <p>Por la parte laboral, trabajé con un equipo en una empresa de telecomunicaciones, manteniendo y desarrollando el
-      software interno de nuestros clientes.</p>
-    </section>
+  <section id="experience">
+    <h2>Experiencia</h2>
+    <p>Tengo 3 años de experiencia en el desarrollo y diseño web, realizando proyectos personales, trabajando como freelance y
+    anteriormente en una empresa.</p>
+    <p>Realicé media carrera de Diseño Multimedial en la Escuela Da Vinci. Actualmente estudio como autodidacta investigando en
+    internet y aprendiendo con plataformas educativas.</p>
+    <p>Por la parte laboral, trabajé con un equipo en una empresa de telecomunicaciones, manteniendo y desarrollando el
+    software interno de nuestros clientes.</p>
+  </section>
 
-    <section id="projects">
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <article class="project">
+      <h3>Registro de usuarios</h3>
+      <p>Single Page Application (SPA) con Vanilla JS que proporciona un sistema de registro e inicio de sesión para usuarios.</p>
+      <div class="project-image"></div>
+    </article>
+    <article class="project">
+      <h3>Inventario de productos</h3>
+      <p>Se trata de una PWA y un backend para gestionar y llevar registro de los productos.</p>
+      <div class="project-image"></div>
+    </article>
+  </section>
 
-    </section>
-  </main> -->
+  <section id="contact">
+    <div class="cta">
+      <button><a href="mailto:alaanjimenez03@gmail.com">Contactame</a></button>
+      <span>Al hacer click serás redireccionado a tu email.</span>
+    </div>
+    <div class="icons">
+      <div>
+        <img src="./assets/GitHub.png" alt="GitHub">
+        <span>GitHub</span>
+      </div>
+      <div>
+        <img src="./assets/LinkedIn.png" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </div>
+    </div>
+  </section>
+  <footer>© Copyrigth 2020</footer>
 </body>
 </html>
