@@ -1,11 +1,11 @@
 {
   "name": "portfolio2020",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Portfolio personal de Alan Jiménez Córdoba",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Alaan96/portfolio"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
